@@ -66,7 +66,7 @@ export default async function Home() {
                   />
                   <div className="flex-1 p-6">
                     <Link href={`/posts/${post.slug}`}>
-                      <h3 className="text-2xl font-bold leading-tight text-zinc-900 dark:text-zinc-50 py-4">
+                      <h3 className="text-2xl font-bold leading-tight text-pink-700 py-4">
                         {post.title}
                       </h3>
                     </Link>
