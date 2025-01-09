@@ -38,6 +38,7 @@ export default async function Posts({ params }) {
       <h1>{post.fields.title}</h1>
       <Image src={`https:` + post.fields.featuredImage.fields.file.url} alt="hey" width={800} height={600} />
       <h4>{documentToReactComponents(post.fields.post)}</h4>
+     
     </main>
   );
 }
