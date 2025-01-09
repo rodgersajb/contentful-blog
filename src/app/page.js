@@ -32,6 +32,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 
+export const revalidate = 60;
+
 export default async function Home() {
   const posts = await getAllPosts();
   console.log(posts, "POSTS");
